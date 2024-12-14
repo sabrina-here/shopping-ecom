@@ -89,7 +89,7 @@ export default function Header() {
       <div
         data-aos="zoom-in"
         id="menus-section"
-        className="w-full pb-5 flex lg:justify-center justify-end items-center stkicky to-0 left-0 h-fit bg-white dark:bg-black"
+        className="w-full pb-5 flex lg:justify-center justify-end items-center sticky to-0 left-0 h-fit bg-white dark:bg-black"
       >
         <ul className="lg:flex justify-center items-center">
           {navItems.map(({ link, path }) => (
